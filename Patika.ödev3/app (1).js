@@ -113,64 +113,64 @@ function myFunction1(e){
   <img src="images/1.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4 mb-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Tteokbokki <span>10.99 $</span></h4>  
-  <p>Spicy rice cakes, serving with fish cake.</p>           
+  <h4 class="d-flex justify-content-between border-bottom border-black">${menu[0].title}<span>${menu[0].price}$</span></h4>  
+  <p>${menu[0].desc}</p>           
 </div>`
   menu2.innerHTML = `   <div class="col-4 mb-4">
   <img src="images/2.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4 mb-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Chicken Ramen <span>7.99 $</span></h4>  
-  <p>Chicken noodle soup, serving with vegetables such as soy bean, green onion. In an optional you can ask for egg.</p>           
+<h4 class="d-flex justify-content-between border-bottom border-black">${menu[1].title}<span>${menu[1].price}$</span></h4>  
+<p>${menu[1].desc}</p>         
 </div>`
   menu3.innerHTML = `    <div class="col-4 mb-4">
   <img src="images/3.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4 mb-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Bibimbap<span>8.99 $</span></h4>  
-  <p>Boiling vegetables, serving with special hot sauce.</p>           
+<h4 class="d-flex justify-content-between border-bottom border-black">${menu[2].title}<span>${menu[2].price}$</span></h4>  
+<p>${menu[2].desc}</p>           
 </div> `
   menu4.innerHTML = `  <div class="col-4 mb-4">
   <img src="images/4.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4 mb-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Dan Dan Mian<span>5.99 $</span></h4>  
-  <p>Dan dan noodle, serving with green onion.</p>           
+<h4 class="d-flex justify-content-between border-bottom border-black">${menu[3].title}<span>${menu[3].price}$</span></h4>  
+<p>${menu[3].desc}</p>           
 </div> `
   menu5.innerHTML = ` <div class="col-4 mb-4">
   <img src="images/5.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4 mb-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Yangzhou Fried Rice <span>12.99 $</span></h4>  
-  <p>Langzhou style fried rice, serving with bean and pickles.</p>           
+<h4 class="d-flex justify-content-between border-bottom border-black">${menu[4].title}<span>${menu[4].price}$</span></h4>  
+<p>${menu[4].desc}</p>            
 </div> `
   menu6.innerHTML = ` <div class="col-4 mb-4 ">
   <img src="images/6.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Onigiri<span>9.99 $</span></h4>  
-  <p>Rice Sandwich, serving with soy sauce.</p>           
+<h4 class="d-flex justify-content-between border-bottom border-black">${menu[5].title}<span>${menu[5].price}$</span></h4>  
+<p>${menu[5].desc}</p>            
 </div>`
   menu7.innerHTML = `     <div class="col-4 mb-4  ">
   <img src="images/7.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Jajangmyeon<span>15.99 $</span></h4>  
-  <p>Black bean sauce noodle, serving with green onion.</p>           
+<h4 class="d-flex justify-content-between border-bottom border-black">${menu[6].title}<span>${menu[6].price}$</span></h4>  
+<p>${menu[6].desc}</p>            
 </div>`
   menu8.innerHTML = `    <div class="col-4  mb-4 ">
   <img src="images/8.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Ma Yi Shang Shu<span>12.99 $</span></h4>  
-  <p>Hot pepper sauce noodle, serving with soy bean and onion.</p>           
+<h4 class="d-flex justify-content-between border-bottom border-black">${menu[7].title}<span>${menu[7].price}$</span></h4>  
+<p>${menu[7].desc}</p>             
 </div>`
   menu9.innerHTML = `<div class="col-4 mb-4 ">
   <img src="images/9.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Doroyaki<span>3.99 $</span></h4>  
-  <p>LRed bean paste dessert, serving with honey.</p>           
+  < <h4 class="d-flex justify-content-between border-bottom border-black">${menu[8].title}<span>${menu[8].price}$</span></h4>  
+  <p>${menu[8].desc}</p>             
 </div>`
 
 }
@@ -184,26 +184,26 @@ function myFunction2(e){
   <img src="images/1.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4 mb-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Tteokbokki <span>10.99 $</span></h4>  
-  <p>Spicy rice cakes, serving with fish cake.</p>           
+  <h4 class="d-flex justify-content-between border-bottom border-black">${menu[0].title}<span>${menu[0].price}$</span></h4>  
+  <p>${menu[0].desc}</p>           
 </div>`
   menu2.innerHTML = ``
   menu3.innerHTML = `    <div class="col-4 mb-4">
   <img src="images/3.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4 mb-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Bibimbap<span>8.99 $</span></h4>  
-  <p>Boiling vegetables, serving with special hot sauce.</p>           
+<h4 class="d-flex justify-content-between border-bottom border-black">${menu[2].title}<span>${menu[2].price}$</span></h4>  
+<p>${menu[2].desc}</p>           
 </div> `
   menu4.innerHTML = `  `
   menu5.innerHTML = ` `
   menu6.innerHTML = ` `
-  menu7.innerHTML = `     <div class="col-4 mb-4  ">
+  menu7.innerHTML =  `     <div class="col-4 mb-4  ">
   <img src="images/7.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Jajangmyeon<span>15.99 $</span></h4>  
-  <p>Black bean sauce noodle, serving with green onion.</p>           
+<h4 class="d-flex justify-content-between border-bottom border-black">${menu[6].title}<span>${menu[6].price}$</span></h4>  
+<p>${menu[6].desc}</p>            
 </div>`
   menu8.innerHTML = ``
   menu9.innerHTML = ``
@@ -215,32 +215,32 @@ function myFunction3(e){
   item2.classList.remove("btn-item-mouseon")
   item4.classList.remove("btn-item-mouseon")
   menu1.innerHTML = ` `
-  menu2.innerHTML = `   <div class="col-4 mb-4">
+  menu2.innerHTML =`   <div class="col-4 mb-4">
   <img src="images/2.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4 mb-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Chicken Ramen <span>7.99 $</span></h4>  
-  <p>Chicken noodle soup, serving with vegetables such as soy bean, green onion. In an optional you can ask for egg.</p>           
+<h4 class="d-flex justify-content-between border-bottom border-black">${menu[1].title}<span>${menu[1].price}$</span></h4>  
+<p>${menu[1].desc}</p>         
 </div>`
   menu3.innerHTML = ` `
   menu4.innerHTML = ` `
-  menu5.innerHTML = ` `
+  menu5.innerHTML = `<div class="col-4 mb-4 ">
+  <img src="images/9.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
+</div>
+<div class="col-8 ps-4">
+  < <h4 class="d-flex justify-content-between border-bottom border-black">${menu[8].title}<span>${menu[8].price}$</span></h4>  
+  <p>${menu[8].desc}</p>             
+</div>`
   menu6.innerHTML = ` <div class="col-4 mb-4 ">
   <img src="images/6.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Onigiri<span>9.99 $</span></h4>  
-  <p>Rice Sandwich, serving with soy sauce.</p>           
+<h4 class="d-flex justify-content-between border-bottom border-black">${menu[5].title}<span>${menu[5].price}$</span></h4>  
+<p>${menu[5].desc}</p>            
 </div>`
   menu7.innerHTML = ``
   menu8.innerHTML = ``
-  menu9.innerHTML = `<div class="col-4 mb-4 ">
-  <img src="images/9.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
-</div>
-<div class="col-8 ps-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Doroyaki<span>3.99 $</span></h4>  
-  <p>LRed bean paste dessert, serving with honey.</p>           
-</div>`
+  menu9.innerHTML =``
 }
 function myFunction4(e){
   e.target.classList.toggle("btn-item-mouseon")
@@ -250,19 +250,19 @@ function myFunction4(e){
   menu1.innerHTML = ` `
   menu2.innerHTML = ``
   menu3.innerHTML = ` `
-  menu4.innerHTML = `  <div class="col-4 mb-4">
+  menu4.innerHTML =`  <div class="col-4 mb-4">
   <img src="images/4.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4 mb-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Dan Dan Mian<span>5.99 $</span></h4>  
-  <p>Dan dan noodle, serving with green onion.</p>           
+<h4 class="d-flex justify-content-between border-bottom border-black">${menu[3].title}<span>${menu[3].price}$</span></h4>  
+<p>${menu[3].desc}</p>           
 </div> `
-  menu5.innerHTML = ` <div class="col-4 mb-4">
+  menu5.innerHTML =  ` <div class="col-4 mb-4">
   <img src="images/5.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4 mb-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Yangzhou Fried Rice <span>12.99 $</span></h4>  
-  <p>Langzhou style fried rice, serving with bean and pickles.</p>           
+<h4 class="d-flex justify-content-between border-bottom border-black">${menu[4].title}<span>${menu[4].price}$</span></h4>  
+<p>${menu[4].desc}</p>            
 </div> `
   menu6.innerHTML = ``
   menu7.innerHTML = ``
@@ -270,8 +270,8 @@ function myFunction4(e){
   <img src="images/8.jpg"  class="border border-black rounded-4 border-4" alt="" height="180" width="180">
 </div>
 <div class="col-8 ps-4">
-  <h4 class="d-flex justify-content-between border-bottom border-black">Ma Yi Shang Shu<span>12.99 $</span></h4>  
-  <p>Hot pepper sauce noodle, serving with soy bean and onion.</p>           
+<h4 class="d-flex justify-content-between border-bottom border-black">${menu[7].title}<span>${menu[7].price}$</span></h4>  
+<p>${menu[7].desc}</p>             
 </div>`
   menu9.innerHTML = ``
 }
